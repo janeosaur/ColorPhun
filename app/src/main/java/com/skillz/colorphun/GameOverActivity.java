@@ -1,4 +1,4 @@
-package com.prakharme.prakharsriv.colorphun;
+package com.skillz.colorphun;
 
 import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.prakharme.prakharsriv.colorphun" >
+    package="com.skillz.colorphun" >
 
     <application
         android:allowBackup="true"
@@ -41,10 +41,6 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity
-            android:name=".HardGameActivity"
-            android:label="@string/title_activity_hard_game" >
-        </activity>
     </application>
 
 </manifest>

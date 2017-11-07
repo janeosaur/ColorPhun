@@ -1,4 +1,4 @@
-package com.prakharme.prakharsriv.colorphun;
+package com.skillz.colorphun;
 
 import android.animation.AnimatorInflater;
 import android.animation.AnimatorSet;
@@ -27,7 +27,7 @@ public abstract class MainGameActivity extends Activity implements View.OnClickL
     protected Runnable runnable;
     protected int timer;
 
-    public enum GameMode { EASY, HARD }
+    public enum GameMode { EASY }
     protected GameMode gameMode;
 
     protected int POINT_INCREMENT;

@@ -1,4 +1,4 @@
-package com.prakharme.prakharsriv.colorphun;
+package com.skillz.colorphun;
 
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;

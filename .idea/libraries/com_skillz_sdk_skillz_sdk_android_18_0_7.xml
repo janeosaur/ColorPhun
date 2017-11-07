@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="com.skillz.sdk:skillz-sdk-android-18.0.7">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/6d52c0b03f9c8a17b849de03586444ed4708cba7/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/6d52c0b03f9c8a17b849de03586444ed4708cba7/output/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/6d52c0b03f9c8a17b849de03586444ed4708cba7/output/jars/libs/mopub-sdk-base.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/6d52c0b03f9c8a17b849de03586444ed4708cba7/output/jars/libs/mopub-sdk-interstitial.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/6d52c0b03f9c8a17b849de03586444ed4708cba7/output/jars/libs/mopub-sdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

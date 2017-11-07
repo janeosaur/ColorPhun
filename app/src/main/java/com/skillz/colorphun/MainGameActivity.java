@@ -16,7 +16,9 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public abstract class MainGameActivity extends Activity implements View.OnClickListener {
+import com.skillz.SkillzActivity;
+
+public abstract class MainGameActivity extends SkillzActivity implements View.OnClickListener {
 
     protected TextView pointsTextView, levelTextView;
     protected ProgressBar timerProgress;

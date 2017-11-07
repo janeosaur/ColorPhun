@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.skillz.colorphun" >
-
+    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="22" />
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -40,6 +40,10 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+        <meta-data android:name="skillz_game_id" android:value="4209" />
+        <meta-data android:name="skillz_production" android:value="false" />
+        <meta-data android:name="skillz_game_activity" android:value=".MainGameActivity" />
+        <meta-data android:name="skillz_allow_exit" android:value="true" />
 
     </application>
 

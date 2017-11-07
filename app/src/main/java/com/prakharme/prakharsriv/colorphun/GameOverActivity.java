@@ -122,11 +122,7 @@ public class GameOverActivity extends BaseGameActivity {
     }
 
     public void playGame(View view) {
-        if (mode == MainGameActivity.GameMode.EASY) {
-            startActivity(new Intent(this, EasyGameActivity.class));
-        } else {
-            startActivity(new Intent(this, HardGameActivity.class));
-        }
+        startActivity(new Intent(this, EasyGameActivity.class));
         finish();
     }
 

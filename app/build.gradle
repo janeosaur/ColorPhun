@@ -1,34 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    signingConfigs {
-        config {
-            keyAlias 'prakhar srivastav'
-            keyPassword 'prakhar'
-            storeFile file('/Users/asrinivasan/Documents/AndroidstudioProjects/keystore.jks')
-            storePassword 'prakhar'
-        }
-    }
     compileSdkVersion 20
-    buildToolsVersion '20.0.0'
+    buildToolsVersion '25.0.0'
     defaultConfig {
         applicationId 'com.prakharme.prakharsriv.colorphun'
         minSdkVersion 15
         targetSdkVersion 20
         versionCode 5
         versionName '1.0.4'
-        signingConfig signingConfigs.config
-    }
-    buildTypes {
-        release {
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.config
-        }
-        debug {
-            signingConfig signingConfigs.config
-        }
-    }
-    productFlavors {
     }
 }
 

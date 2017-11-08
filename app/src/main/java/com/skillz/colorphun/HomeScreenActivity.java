@@ -16,6 +16,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import com.google.example.games.basegameutils.BaseGameActivity;
 import com.skillz.colorphun.R;
+import com.skillz.Skillz;
+
 
 public class HomeScreenActivity extends BaseGameActivity implements View.OnClickListener {
 
@@ -23,6 +25,7 @@ public class HomeScreenActivity extends BaseGameActivity implements View.OnClick
     private ImageView logoView;
     private TextView taglineTextView1, taglineTextView2, taglineTextView3;
     SharedPreferences sharedPreferences;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,7 +45,6 @@ public class HomeScreenActivity extends BaseGameActivity implements View.OnClick
         taglineTextView3.setTypeface(avenir_book);
 
     }
-
 
     @Override
     public void onWindowFocusChanged(boolean hasFocus) {
@@ -118,8 +120,9 @@ public class HomeScreenActivity extends BaseGameActivity implements View.OnClick
     }
 
     public void playGame(View view) {
-        startActivity(new Intent(this, EasyGameActivity.class));
+        Skillz.launch(this);
     }
+
 
     // TODO: Find out the best practices for below events and handle them
     @Override

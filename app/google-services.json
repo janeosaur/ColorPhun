@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "469940603422",
+    "firebase_url": "https://skillz-colorphun.firebaseio.com",
+    "project_id": "skillz-colorphun",
+    "storage_bucket": "skillz-colorphun.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469940603422:android:ed75e988cfdfd2d7",
+        "android_client_info": {
+          "package_name": "com.skillz.colorphun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469940603422-tl3rtpp1pt04ntpb3p8tbg7o3ngbekud.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuiZ6OwwTB5yH_0lcBC1dLozzs6rYSKXU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

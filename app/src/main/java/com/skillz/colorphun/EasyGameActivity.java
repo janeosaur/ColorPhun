@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.prakharme.prakharsriv.colorphun.util.BetterColor;
+import com.skillz.colorphun.util.BetterColor;
 
 public class EasyGameActivity extends MainGameActivity {
 

@@ -14,12 +14,11 @@ import android.view.animation.BounceInterpolator;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-import com.google.example.games.basegameutils.BaseGameActivity;
-import com.skillz.colorphun.R;
 import com.skillz.Skillz;
+import com.skillz.SkillzActivity;
 
 
-public class HomeScreenActivity extends BaseGameActivity implements View.OnClickListener {
+public class HomeScreenActivity extends SkillzActivity implements View.OnClickListener {
 
     private Button playGameButton;
     private ImageView logoView;
@@ -125,16 +124,13 @@ public class HomeScreenActivity extends BaseGameActivity implements View.OnClick
 
 
     // TODO: Find out the best practices for below events and handle them
-    @Override
     public void onSignInFailed() {
     }
 
-    @Override
     public void onSignInSucceeded() {
 
     }
 
-    @Override
     public void onClick(View view) {
 
     }

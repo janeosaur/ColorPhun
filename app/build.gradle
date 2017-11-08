@@ -9,6 +9,10 @@ android {
         targetSdkVersion 22
         versionCode 1
         versionName '1.0.1'
+        multiDexEnabled true
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
     }
     repositories {
         maven {
@@ -22,8 +26,9 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:support-v4:20.0.0'
-    compile project(':BaseGameUtils')
-    compile 'com.google.android.gms:play-services:6.1+'
+    compile 'com.google.firebase:firebase-core:9.0.0'
     compile 'com.skillz.sdk:skillz-sdk-android:18.0.7'
+    compile 'com.android.support:multidex:1.0.1'
 }
+
+apply plugin: 'com.google.gms.google-services'

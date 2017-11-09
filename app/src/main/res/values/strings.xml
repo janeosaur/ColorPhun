@@ -14,6 +14,7 @@
     <string name="game_help">Tap the lighter color FAST!</string>
     <string name="game_over">Game Over</string>
     <string name="submit_score">Submit Score</string>
+    <string name="abort_button">Abort! Abort!</string>
     <string name="main_menu">Main Menu</string>
     <string name="tagline1">A SIMPLE</string>
     <string name="tagline2">COLOR</string>

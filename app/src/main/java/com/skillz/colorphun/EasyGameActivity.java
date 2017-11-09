@@ -6,11 +6,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.skillz.Skillz;
 import com.skillz.colorphun.util.BetterColor;
 
 public class EasyGameActivity extends MainGameActivity {
 
-    private Button topBtn, bottomBtn;
+    private Button topBtn, bottomBtn, abortBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +28,8 @@ public class EasyGameActivity extends MainGameActivity {
         bottomBtn = (Button) findViewById(R.id.bottom_button);
         topBtn.setOnClickListener(this);
         bottomBtn.setOnClickListener(this);
+
+        Button abortBtn = (Button) findViewById(R.id.abort_button);
 
         // bootstrap game
         resetGame();
@@ -74,6 +77,11 @@ public class EasyGameActivity extends MainGameActivity {
         } else { // incorrect guess
             endGame();
         }
+    }
+
+    public void abortGame(View view) {
+        Skillz.abortMatch(this);
+        finish();
     }
 
 }

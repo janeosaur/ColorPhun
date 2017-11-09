@@ -1,5 +1,8 @@
 package com.skillz.colorphun.util;
 
+import com.skillz.Skillz;
+import com.skillz.util.SkillzRandom;
+
 import java.util.Random;
 
 public class BetterColor {
@@ -163,7 +166,6 @@ public class BetterColor {
     };
 
     public static String getColor() {
-        Random random = new Random();
-        return colorList[random.nextInt(colorList.length)];
+        return colorList[Skillz.getRandom().nextInt(colorList.length)];
     }
 }

@@ -3,6 +3,7 @@ package com.skillz.colorphun;
 import android.animation.Animator;
 import android.animation.AnimatorSet;
 import android.animation.ValueAnimator;
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -18,7 +19,7 @@ import com.skillz.Skillz;
 import com.skillz.SkillzActivity;
 
 
-public class HomeScreenActivity extends SkillzActivity implements View.OnClickListener {
+public class HomeScreenActivity extends Activity implements View.OnClickListener {
 
     private Button playGameButton;
     private ImageView logoView;

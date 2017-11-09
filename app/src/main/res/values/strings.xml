@@ -13,7 +13,7 @@
     <string name="title_activity_scoreboard">Scoreboard</string>
     <string name="game_help">Tap the lighter color FAST!</string>
     <string name="game_over">Game Over</string>
-    <string name="retry_game">Replay</string>
+    <string name="submit_score">Submit Score</string>
     <string name="main_menu">Main Menu</string>
     <string name="tagline1">A SIMPLE</string>
     <string name="tagline2">COLOR</string>

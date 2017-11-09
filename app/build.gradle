@@ -10,6 +10,9 @@ android {
         versionCode 1
         versionName '1.0.1'
         multiDexEnabled true
+        ndk {
+            abiFilters "armeabi-v7a", "x86"
+        }
     }
     dexOptions {
         javaMaxHeapSize "4g"
@@ -25,10 +28,7 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.google.firebase:firebase-core:9.0.0'
     compile 'com.skillz.sdk:skillz-sdk-android:18.0.11'
-    compile 'com.android.support:multidex:1.0.1'
 }
 
 apply plugin: 'com.google.gms.google-services'

@@ -16,9 +16,12 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.skillz.Skillz;
 import com.skillz.SkillzActivity;
 
-public abstract class MainGameActivity extends SkillzActivity implements View.OnClickListener {
+import java.math.BigDecimal;
+
+public class MainGameActivity extends SkillzActivity implements View.OnClickListener {
 
     protected TextView pointsTextView, levelTextView;
     protected ProgressBar timerProgress;
@@ -47,12 +50,18 @@ public abstract class MainGameActivity extends SkillzActivity implements View.On
         handler = new Handler();
     }
 
+    @Override
+    public void onClick(View view) {
+
+    }
+
     protected void setupProgressView() {
         timerProgress = (ProgressBar) findViewById(R.id.progress_bar);
         pointsTextView = (TextView) findViewById(R.id.points_value);
         levelTextView = (TextView) findViewById(R.id.level_value);
         TextView pointsLabel = (TextView) findViewById(R.id.points_label);
         TextView levelsLabel = (TextView) findViewById(R.id.level_label);
+
 
         // setting up fonts
         Typeface avenir_black = Typeface.createFromAsset(getAssets(), "fonts/avenir_black.ttf");
@@ -184,7 +193,7 @@ public abstract class MainGameActivity extends SkillzActivity implements View.On
         TIMER_DELTA = -TIMER_BUMP * TIMER_DELTA; // give a timer bump
         pointsTextView.setText(Integer.toString(points));
         pointAnim.start();
-
+        Skillz.updatePlayersCurrentScore(this, BigDecimal.valueOf(points));
         if (points > level * LEVEL) {
             incrementLevel();
             levelTextView.setText(Integer.toString(level));
@@ -199,7 +208,11 @@ public abstract class MainGameActivity extends SkillzActivity implements View.On
     }
 
     // ABSTRACT METHODS
-    abstract protected void setColorsOnButtons();
+    protected void setColorsOnButtons() {
 
-    abstract protected void calculatePoints(View view);
+    };
+
+    protected void calculatePoints(View view) {
+
+    };
 }

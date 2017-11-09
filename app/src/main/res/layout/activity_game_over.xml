@@ -114,10 +114,10 @@
         android:background="@android:color/darker_gray"/>
 
     <Button
-        android:id="@+id/replay_btn"
+        android:id="@+id/submit_btn"
         android:layout_width="180dp"
         android:layout_gravity="center_horizontal"
-        android:text="@string/retry_game"
+        android:text="@string/submit_score"
         android:textSize="15sp"
         android:background="@drawable/replay_button"
         android:onClick="playGame"

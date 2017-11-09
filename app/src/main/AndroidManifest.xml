@@ -35,7 +35,7 @@
         </activity>
 
         <meta-data android:name="skillz_game_id" android:value="4209" />
-        <meta-data android:name="skillz_production" android:value="false" />
+        <meta-data android:name="skillz_production" android:value="true" />
         <meta-data android:name="skillz_game_activity" android:value=".EasyGameActivity" />
         <meta-data android:name="skillz_allow_exit" android:value="true" />
 

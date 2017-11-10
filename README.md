@@ -1,4 +1,4 @@
-# 2048 - Android Native Example Project
+# Color Phun - Android Native Example Project
 
 This repo contains an example of the ColorPhun game with Skillz integration. The purpose of this example is to show how to integrate an Android Native game with the Skillz Platform .
 
